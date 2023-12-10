@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>JavaScript Quiz</title>
-    <link rel="stylesheet" href="style.css">   
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="#" id="high-scores-link">View high scores</a>
-        <div id="timer">Time: <span id="time-left">60</span> seconds</div>  
-        </header> 
-<main>
-    <h1>Coding Quiz Challenge</h1>
-    <p id="instructions">Try to answer the following code related questions within the time limit! Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
-    <button id="start-btn" onClick="startQuiz()">Start Quiz!</button>
-    <div id="question-container" style="display:none;">
-    <div id="question"></div>
-    <ul id="answers"></ul>
-    </div>
-    <div id="end-screen" style="display:none;">
-    <p>Your final score is <span id="final-score"></span>.</p>
-    <input type="text" id="initals" placeholder="Enter Initials">
-    <button onclick="saveHighScore()">Save Score</button>
-    </div>
-</main> 
+      <a href="#" id="high-scores-link">View high scores</a>
+      <div id="timer">Time: <span id="time-left">60</span> seconds</div>
+    </header>
+    <main>
+      <h1>Coding Quiz Challenge</h1>
+      <p id="instructions">
+        Try to answer the following code related questions within the time
+        limit! Keep in mind that incorrect answers will penalize your score/time
+        by 10 seconds!
+      </p>
+      <button id="start-btn" onClick="startQuiz()">Start Quiz!</button>
+      <div id="question-container" style="display: none">
+        <div id="question"></div>
+        <ul id="answers"></ul>
+      </div>
+      <div id="end-screen" style="display: none">
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <input type="text" id="initals" placeholder="Enter Initials" />
+        <button onclick="saveHighScore()">Save Score</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
