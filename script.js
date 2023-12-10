@@ -54,3 +54,11 @@ var questions = [
         correct: 1 
     }
 ];
+
+function startQuiz() {
+    document.getElementById('instructions').style.display = 'none';
+    document.getElementById('start-btn').style.display = 'none';
+    document.getElementById('question-container').style.display = 'block';
+    timerId = setInterval(updateTimer, 1000);
+    displayQuestion();
+}
