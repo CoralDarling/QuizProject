@@ -104,3 +104,17 @@ function displayQuestion() {
         document.getElementById('end-screen').style.display = 'block';
         document.getElementById('final-score').textContent = time;
     }
+    function saveHighScore() {
+        var initials = document.getElementById('initials').value;
+        if (!initials) {
+            alert("Please enter initials!");
+            return;
+        }
+        var highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+        var newScore = { initials: initials, score: time };
+        highScores.push(newScore);
+        highScores.sort(function(a, b) { return b.score - a.score; });
+        localStorage.setItem('highScores', JSON.stringify(highScores));
+        alert("Score saved!");
+    }
+    
