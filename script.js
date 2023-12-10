@@ -62,3 +62,27 @@ function startQuiz() {
     timerId = setInterval(updateTimer, 1000);
     displayQuestion();
 }
+
+function updateTimer() {
+    time--;
+    document.getElementById('time-left').textContent = time + " seconds";
+    if (time <= 0) {
+        endQuiz();
+    }
+}
+
+function displayQuestion() {
+    var question = questions[currentQuestionIndex];
+    document.getElementById('question').textContent = question.question;
+    var answersUl = document.getElementById('answers');
+    answersUl.innerHTML = '';
+    for (var i = 0; i < question.answers.length; i++) {
+        var li = document.createElement('li');
+        li.textContent = question.answers[i];
+        (function(index) {
+            li.onclick = function() { answerQuestion(index === question.correct); };
+        })(i);
+        answersUl.appendChild(li);
+    }
+
+    
