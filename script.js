@@ -85,4 +85,22 @@ function displayQuestion() {
         answersUl.appendChild(li);
     }
 
+    function answerQuestion(isCorrect) {
+        if (!isCorrect) {
+            time -= 10;
+            if (time < 0) time = 0;
+        }
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            displayQuestion();
+        } else {
+            endQuiz();
+        }
+    }
     
+    function endQuiz() {
+        clearInterval(timerId);
+        document.getElementById('question-container').style.display = 'none';
+        document.getElementById('end-screen').style.display = 'block';
+        document.getElementById('final-score').textContent = time;
+    }
