@@ -1,7 +1,7 @@
 # QuizProject
 A project demonstrating usage of dynamically updated HTML and CSS powered by JavaScript in Quiz format.
 
-User Story
+<b>User Story<br> </b>
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
