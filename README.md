@@ -1,10 +1,13 @@
 # QuizProject
-A project demonstrating usage of dynamically updated HTML and CSS powered by JavaScript in Quiz format.
-
+A project demonstrating usage of dynamically updated HTML and CSS powered by JavaScript in Quiz format. 
+<hr>
+<br>
 <b>User Story<br> </b>
 AS A coding boot camp student <bR>
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores <br>
 SO THAT I can gauge my progress compared to my peers<br>
+<hr>
+<br>
 
 <b>Acceptance Criteria<br></b>
 GIVEN I am taking a code quiz<br>
@@ -24,10 +27,12 @@ THEN I can save my initials and score<br>
 <img src="https://github.com/CoralDarling/QuizProject/assets/109124878/7c7f0dbd-dc9a-4dec-9224-7e8caa8fbcdc">
 <br>
 <br>
+<hr><br>
 <b>Questions:</b><br>
 <img src="https://github.com/CoralDarling/QuizProject/assets/109124878/4f99c365-2d08-4138-ab8a-28cedf211633">
 <br>
 <br>
+<hr><br>
 <b>Final Score & Initials Page:</b> <br>
 <img src="https://github.com/CoralDarling/QuizProject/assets/109124878/6df59cc2-2dc0-4093-bb3f-a679daba43c8">
 <br>
