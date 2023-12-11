@@ -20,11 +20,15 @@ WHEN the game is over<br>
 THEN I can save my initials and score<br>
 <br>
 <hr>
-<b>Landing Page</b>
-img src="https://github.com/CoralDarling/QuizProject/assets/109124878/7c7f0dbd-dc9a-4dec-9224-7e8caa8fbcdc">
+<b>Landing Page:</b><br>
+<img src="https://github.com/CoralDarling/QuizProject/assets/109124878/7c7f0dbd-dc9a-4dec-9224-7e8caa8fbcdc">
 <br>
 <br>
-<b>Questions</b>
+<b>Questions:</b><br>
 <img src="https://github.com/CoralDarling/QuizProject/assets/109124878/4f99c365-2d08-4138-ab8a-28cedf211633">
+<br>
+<br>
+<b>Final Score & Initials Page:</b> <br>
+<img src="https://github.com/CoralDarling/QuizProject/assets/109124878/6df59cc2-2dc0-4093-bb3f-a679daba43c8">
 <br>
 <br>
