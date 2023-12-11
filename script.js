@@ -117,4 +117,4 @@ function displayQuestion() {
         localStorage.setItem('highScores', JSON.stringify(highScores));
         alert("Score saved!");
     }
-    
+}
