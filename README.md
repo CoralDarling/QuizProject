@@ -25,6 +25,6 @@ THEN I can save my initials and score<br>
 <br>
 <br>
 <b>Questions</b>
-![image](https://github.com/CoralDarling/QuizProject/assets/109124878/4f99c365-2d08-4138-ab8a-28cedf211633)
+<img src="https://github.com/CoralDarling/QuizProject/assets/109124878/4f99c365-2d08-4138-ab8a-28cedf211633">
 <br>
 <br>
