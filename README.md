@@ -18,3 +18,4 @@ WHEN all questions are answered or the timer reaches 0<br>
 THEN the game is over<br>
 WHEN the game is over<br>
 THEN I can save my initials and score<br>
+![image](https://github.com/CoralDarling/QuizProject/assets/109124878/7c7f0dbd-dc9a-4dec-9224-7e8caa8fbcdc)
